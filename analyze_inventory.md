@@ -1,0 +1,76 @@
+# Analyzer Inventory
+
+- warning - The value of the local variable 'fontBold' isn't used - lib\core\services\pdf_service.dart:26:11 - unused_local_variable
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\theme\app_shadows.dart:6:27 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\theme\app_shadows.dart:14:27 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\theme\app_shadows.dart:22:27 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\widgets\app_card.dart:35:33 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\widgets\app_text_field.dart:132:47 - deprecated_member_use
+- info - Don't use 'BuildContext's across async gaps - lib\features\dashboard\presentation\pages\dashboard_page.dart:25:7 - use_build_context_synchronously
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\dashboard\presentation\widgets\alerts_banner.dart:66:37 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\dashboard\presentation\widgets\alerts_banner.dart:72:35 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\dashboard\presentation\widgets\alerts_banner.dart:78:36 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\dashboard\presentation\widgets\alerts_banner.dart:84:34 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\dashboard\presentation\widgets\quick_action_grid.dart:81:30 - deprecated_member_use
+- warning - The value of the field '_database' isn't used - lib\features\dashboard\providers\dashboard_provider.dart:6:21 - unused_field
+- warning - Unused import: 'package:flutter/material.dart' - lib\features\exams\domain\entities\exam.dart:1:8 - unused_import
+- warning - Unused import: 'package:flutter/material.dart' - lib\features\exams\domain\entities\question_content.dart:2:8 - unused_import
+- warning - The value of the field '_formKey' isn't used - lib\features\exams\presentation\pages\exam_editor_page.dart:43:9 - unused_field
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\exams\presentation\pages\exam_editor_page.dart:317:32 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\exams\presentation\pages\exam_editor_page.dart:320:34 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\exams\presentation\pages\exam_editor_page.dart:543:63 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\exams\presentation\pages\exam_editor_page.dart:595:60 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\exams\presentation\pages\exam_editor_page.dart:695:33 - deprecated_member_use
+- info - Don't use 'BuildContext's across async gaps - lib\features\exams\presentation\pages\exam_editor_page.dart:749:29 - use_build_context_synchronously
+- info - Don't use 'BuildContext's across async gaps - lib\features\exams\presentation\pages\exam_editor_page.dart:758:9 - use_build_context_synchronously
+- info - Don't use 'BuildContext's across async gaps - lib\features\exams\presentation\pages\exam_editor_page.dart:764:9 - use_build_context_synchronously
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\exams\presentation\pages\question_editor_page.dart:182:73 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\exams\presentation\widgets\exam_card.dart:39:59 - deprecated_member_use
+- info - Use interpolation to compose strings and values - lib\features\exams\presentation\widgets\math_equation_editor.dart:239:26 - prefer_interpolation_to_compose_strings
+- info - Use interpolation to compose strings and values - lib\features\exams\presentation\widgets\math_equation_editor.dart:242:26 - prefer_interpolation_to_compose_strings
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\exams\presentation\widgets\question_type_dialog.dart:70:65 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\exams\presentation\widgets\question_type_dialog.dart:73:58 - deprecated_member_use
+- info - Parameter 'text' could be a super parameter - lib\features\exams\presentation\widgets\rich_text_controller.dart:8:3 - use_super_parameters
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\exams\presentation\widgets\rich_text_controller.dart:41:36 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\exams\presentation\widgets\rich_text_controller.dart:43:55 - deprecated_member_use
+- warning - Unused import: 'package:flutter/foundation.dart' - lib\features\exams\providers\exam_provider.dart:1:8 - unused_import
+- info - The private field _isLoading could be 'final' - lib\features\exams\providers\exam_provider.dart:34:8 - prefer_final_fields
+- warning - Unused import: 'package:flutter/foundation.dart' - lib\features\exams\providers\question_editor_provider.dart:2:8 - unused_import
+- info - The private field _contentBlocks could be 'final' - lib\features\exams\providers\question_editor_provider.dart:30:22 - prefer_final_fields
+- warning - This default clause is covered by the previous cases - lib\features\exams\providers\question_editor_provider.dart:379:7 - unreachable_switch_default
+- warning - Unused import: 'package:provider/provider.dart' - lib\features\settings\presentation\pages\settings_page.dart:2:8 - unused_import
+- warning - Unused import: 'package:go_router/go_router.dart' - lib\features\settings\presentation\pages\settings_page.dart:3:8 - unused_import
+- warning - The value of the field '_database' isn't used - lib\features\settings\providers\settings_provider.dart:5:21 - unused_field
+- warning - Unused import: 'dart:convert' - lib\features\students\data\services\student_export_service.dart:1:8 - unused_import
+- info - Unnecessary cascade expression - lib\features\students\data\services\student_export_service.dart:52:7 - avoid_single_cascade_in_expression_statements
+- info - Unnecessary cascade expression - lib\features\students\data\services\student_export_service.dart:54:7 - avoid_single_cascade_in_expression_statements
+- info - Unnecessary cascade expression - lib\features\students\data\services\student_export_service.dart:56:7 - avoid_single_cascade_in_expression_statements
+- info - Unnecessary cascade expression - lib\features\students\data\services\student_export_service.dart:58:7 - avoid_single_cascade_in_expression_statements
+- info - Unnecessary cascade expression - lib\features\students\data\services\student_export_service.dart:60:7 - avoid_single_cascade_in_expression_statements
+- info - Unnecessary cascade expression - lib\features\students\data\services\student_export_service.dart:62:7 - avoid_single_cascade_in_expression_statements
+- info - Unnecessary cascade expression - lib\features\students\data\services\student_export_service.dart:64:7 - avoid_single_cascade_in_expression_statements
+- warning - Duplicate import - lib\features\students\data\services\student_import_service.dart:2:8 - duplicate_import
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\students\presentation\pages\student_details_page.dart:104:63 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\students\presentation\widgets\student_card.dart:31:44 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\students\presentation\widgets\student_card.dart:39:39 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\students\presentation\widgets\student_card.dart:45:39 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\students\presentation\widgets\student_card.dart:63:50 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\students\presentation\widgets\student_card.dart:75:52 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\students\presentation\widgets\student_card.dart:129:37 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\students\presentation\widgets\student_card.dart:134:44 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\students\presentation\widgets\student_card.dart:169:41 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\students\presentation\widgets\student_card.dart:210:33 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\students\presentation\widgets\student_card.dart:211:33 - deprecated_member_use
+- warning - The declaration '_buildPlaceholderAvatar' isn't referenced - lib\features\students\presentation\widgets\student_card.dart:231:10 - unused_element
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\students\presentation\widgets\student_card.dart:243:33 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\students\presentation\widgets\student_card.dart:244:33 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\students\presentation\widgets\student_card.dart:298:38 - deprecated_member_use
+- warning - The value of the local variable 'colorScheme' isn't used - lib\features\students\presentation\widgets\student_card.dart:404:11 - unused_local_variable
+- warning - The declaration '_buildActionButton' isn't referenced - lib\features\students\presentation\widgets\student_card.dart:494:10 - unused_element
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\students\presentation\widgets\student_card.dart:506:28 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\students\presentation\widgets\student_card.dart:511:26 - deprecated_member_use
+- info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\students\presentation\widgets\student_card.dart:514:28 - deprecated_member_use
+- warning - The left operand can't be null, so the right operand is never executed - lib\features\students\providers\student_provider.dart:54:33 - dead_null_aware_expression
+- warning - The left operand can't be null, so the right operand is never executed - lib\features\students\providers\student_provider.dart:54:62 - dead_null_aware_expression
+- info - The member 'isLoading' overrides an inherited member but isn't annotated with '@override' - lib\features\students\providers\student_provider.dart:68:12 - annotate_overrides
+- info - The private field _hasMore could be 'final' - lib\features\students\providers\student_provider.dart:70:8 - prefer_final_fields

@@ -1,0 +1,25 @@
+Exam Builder DI change required
+===============================
+
+The updated ExamProvider adds one dependency: DeleteQuestionUseCase.
+Register the use case in the project's existing GetIt setup and pass it to
+ExamProvider using the same lifetime/factory pattern already used for the
+other exam use cases.
+
+Conceptually:
+
+  getIt.registerLazySingleton<DeleteQuestionUseCase>(
+    () => DeleteQuestionUseCase(getIt<ExamRepository>()),
+  );
+
+Then ensure the ExamProvider registration supplies:
+
+  deleteQuestionUseCase: getIt<DeleteQuestionUseCase>(),
+
+Do not create a second Repository instance if the project already registers
+ExamRepository as a singleton.
+
+No flutter_quill dependency was introduced by these changes. The supplied
+archive did not contain flutter_quill or the Prototype implementation, so the
+current RichTextController + existing math/chemistry insertion remains the
+safe implementation until the Prototype is audited.
